@@ -31,3 +31,8 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+        ls 
+        echo $HOME
+    - name: Add a file
+      run: touch $HOME/stuff.txt
+      
